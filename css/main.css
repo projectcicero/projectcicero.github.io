@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+}
+
+.pc {
+    color: blue;
+    font-size: 40px;
+}
+
+body {
+    text-align: center;
+}
+
+.pc2 {
+    height: 1500px;
+    background-color: antiquewhite;
+}
+
+.containerpc {
+    height: 100%;
+}
