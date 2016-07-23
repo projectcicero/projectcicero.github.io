@@ -18,4 +18,61 @@ body {
 
 .containerpc {
     height: 100%;
+    background-image: url(../../img/temporarybackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: white;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.nav.navbar-nav {
+    background-color: white;
+}
+
+.navbar-custom ul.nav li a {
+	font-size: 12px;
+	letter-spacing: 1px;
+    color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    background-color: white;
+}
+
+.navbar-custom {
+    background-color: transparent;
+    text-align: center;
+}
+
+#nav {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+#nav a:hover{
+    background:#F8F8F8 none;
+    color: black;
+}
+
+.title {
+    padding-top: 200px;
+    font-size: 80px;
+    color:black;
 }
