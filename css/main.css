@@ -18,9 +18,10 @@ body {
 
 .containerpc {
     height: 100%;
-    background-image: url(../../img/temporarybackground.jpg);
+    background-image: url(../../img/booksimage2copy.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 .navbar-brand {
@@ -60,6 +61,7 @@ body {
 #nav {
     margin-top: 10px;
     text-decoration: none;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 #nav a{
@@ -74,5 +76,5 @@ body {
 .title {
     padding-top: 200px;
     font-size: 80px;
-    color:black;
+    color:white;
 }
