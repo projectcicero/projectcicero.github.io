@@ -3,8 +3,9 @@ html, body {
 }
 
 .pc {
-    color: blue;
-    font-size: 40px;
+    background-color: antiquewhite;
+    font-family: 'Droid Sans', sans-serif;
+    padding-bottom: 100px;
 }
 
 body {
@@ -12,13 +13,14 @@ body {
 }
 
 .pc2 {
-    height: 1500px;
+    height: 1300px;
     background-color: antiquewhite;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 .containerpc {
     height: 100%;
-    background-image: url(../../img/booksimage2copy.png);
+    background-image: url(../../img/5196copy.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Droid Sans', sans-serif;
@@ -77,4 +79,33 @@ body {
     padding-top: 200px;
     font-size: 80px;
     color:white;
+}
+
+.box {
+    padding-top: 225px;
+    font-size: 20px;
+}
+
+.arrow {
+    width: 50px;
+}
+
+.aboutleft {
+    padding-top: 100px;
+}
+
+.abouttitle {
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+.aboutright {
+    padding-top: 100px;
+}
+
+.quote {
+    padding-top: 50px;
+}
+
+.timelapse {
 }
