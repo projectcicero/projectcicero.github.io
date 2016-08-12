@@ -20,7 +20,7 @@ body {
 
 .containerpc {
     height: 100%;
-    background-image: url(../../img/5196copy.png);
+    background-image: url(../../img/2edited.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Droid Sans', sans-serif;
@@ -108,4 +108,18 @@ body {
 }
 
 .timelapse {
+}
+
+.aboutlink {
+    color: white;
+    font-size: 30px;
+}
+
+.impactpar1 {
+    padding-top: 50px;
+}
+
+.letter {
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
