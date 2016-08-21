@@ -85,6 +85,11 @@ body {
     display:inline;
 }
 
+.container {
+    width: 100%;
+}
+
+
 .title {
     padding-top: 200px;
     font-size: 80px;
