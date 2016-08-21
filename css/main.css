@@ -116,6 +116,8 @@ body {
 
 .quote {
     padding-top: 50px;
+    background-color: antiquewhite;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 .timelapse {
@@ -311,4 +313,32 @@ body {
 .color2bottom {
     background-color: antiquewhite;
     height: 50px;
+}
+
+.volunteers {
+    background-color: white;
+    padding-bottom: 200px;
+}
+
+.colorv {
+    background-color: antiquewhite;
+    height: 1200px;
+}
+
+.supportlist {
+    text-align: left;
+}
+
+.v1 {
+    width: 90%;
+    padding-top: 50px;
+}
+
+.foot {
+    padding-bottom: 50px;
+}
+
+.colors {
+    background-color: antiquewhite;
+    height: 400px;
 }
