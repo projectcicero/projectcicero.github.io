@@ -133,8 +133,8 @@ body {
 }
 
 .letter {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo {
@@ -341,4 +341,34 @@ body {
 .colors {
     background-color: antiquewhite;
     height: 400px;
+}
+
+.colort {
+    background-color: antiquewhite;
+    height: 1405px;
+}
+
+.linktitle {
+    font-size: 20px;
+    color: red;
+}
+
+.colorp {
+    background-color: antiquewhite;
+    height: 850px;
+}
+
+.aboutpicture {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.colorc {
+    background-color: antiquewhite;
+    height: 300px;
+}
+
+.colori {
+    background-color: antiquewhite;
+    height: 1205px;
 }
