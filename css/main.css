@@ -39,7 +39,7 @@ body {
 }
 
 .nav.navbar-nav {
-    background-color: antiquewhite;
+    background-color: oldlace;
 }
 
 .navbar-custom ul.nav li a {
@@ -121,8 +121,9 @@ body {
 
 .quote {
     padding-top: 50px;
-    background-color: antiquewhite;
+    background-color: #FE5F5F;
     font-family: 'Droid Sans', sans-serif;
+    padding-bottom: 50px;
 }
 
 .timelapse {
@@ -131,10 +132,6 @@ body {
 .aboutlink {
     color: white;
     font-size: 30px;
-}
-
-.impactpar1 {
-    padding-top: 50px;
 }
 
 .letter {
@@ -335,12 +332,7 @@ body {
 }
 
 .v1 {
-    width: 90%;
-    padding-top: 50px;
-}
-
-.foot {
-    padding-bottom: 50px;
+    width: 80%;
 }
 
 .colors {
@@ -376,4 +368,115 @@ body {
 .colori {
     background-color: antiquewhite;
     height: 1205px;
+}
+
+.teacherspage {
+    background-color: #FE5F5F;
+    padding-top: 100px;
+}
+
+.whitepage {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.teachertitle {
+    font-size: 40px;
+}
+
+.teachersinfo {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.trow1 {
+    padding-top: 50px;
+}
+
+.quotet {
+    padding-top: 50px;
+    background-color: #FE5F5F;
+    font-family: 'Droid Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.volunteerspage {
+    background-color: #EFE774;
+    padding-top: 100px;
+}
+
+.v2 {
+    width: 70%;
+}
+
+.center {
+    text-align: center;
+}
+
+.trow2 {
+    padding-bottom: 40px;
+}
+
+.trow3 {
+    padding-top: 85px;
+}
+
+.quotev {
+    padding-top: 50px;
+    background-color: #EFE774;
+    font-family: 'Droid Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.supportpage {
+    background-color: #95EC9A;
+    padding-top: 100px;
+}
+
+.quotes {
+    padding-top: 50px;
+    background-color: #95EC9A;
+    font-family: 'Droid Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.presspage {
+    background-color: #8EE7FF;
+    padding-top: 100px;
+}
+
+.quotep {
+    padding-top: 50px;
+    background-color: #8EE7FF;
+    font-family: 'Droid Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.contactpage {
+    background-color: #E2ADFF;
+    padding-top: 100px;
+}
+
+.quotec {
+    padding-top: 50px;
+    background-color: #E2ADFF;
+    font-family: 'Droid Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.impactpage {
+    background-color: #FFBED8;
+    padding-top: 100px;
+}
+
+.impimg {
+    width: 90%;
+}
+
+.quotei {
+    padding-top: 50px;
+    background-color: #FFBED8;
+    font-family: 'Droid Sans', sans-serif;
+    padding-bottom: 50px;
 }
