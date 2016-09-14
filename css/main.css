@@ -39,7 +39,7 @@ body {
 }
 
 .nav.navbar-nav {
-    background-color: antiquewhite;
+    background-color: #FEFFF1;
 }
 
 .navbar-custom ul.nav li a {
@@ -382,7 +382,7 @@ body {
 }
 
 .teacherspage {
-    background-color: #FE5F5F;
+    background-color: #F18A1D;
     padding-top: 100px;
 }
 
@@ -407,7 +407,7 @@ body {
 
 .quotet {
     padding-top: 50px;
-    background-color: #FE5F5F;
+    background-color: #F18A1D;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
@@ -419,6 +419,10 @@ body {
 
 .v2 {
     width: 70%;
+}
+
+.v3 {
+    width: 85%;
 }
 
 .center {
@@ -441,43 +445,43 @@ body {
 }
 
 .supportpage {
-    background-color: #95EC9A;
+    background-color: #1CA906;
     padding-top: 100px;
 }
 
 .quotes {
     padding-top: 50px;
-    background-color: #95EC9A;
+    background-color: #1CA906;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
 
 .presspage {
-    background-color: #8EE7FF;
+    background-color: #006CFF;
     padding-top: 100px;
 }
 
 .quotep {
     padding-top: 50px;
-    background-color: #8EE7FF;
+    background-color: #006CFF;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
 
 .contactpage {
-    background-color: #E2ADFF;
+    background-color: #A200FF;
     padding-top: 100px;
 }
 
 .quotec {
     padding-top: 50px;
-    background-color: #E2ADFF;
+    background-color: #A200FF;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
 
 .impactpage {
-    background-color: #FFBED8;
+    background-color: #FE5F5F;
     padding-top: 100px;
 }
 
@@ -487,7 +491,7 @@ body {
 
 .quotei {
     padding-top: 50px;
-    background-color: #FFBED8;
+    background-color: #FE5F5F;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
@@ -497,4 +501,12 @@ body {
     background-color: whitesmoke;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
+}
+
+.presslogo {
+    width: 30%;
+}
+
+.presslogo2 {
+    width: 20%;
 }
