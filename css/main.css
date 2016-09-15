@@ -504,9 +504,11 @@ body {
 }
 
 .presslogo {
-    width: 30%;
+    width: 20%;
+    padding-left: 50px;
 }
 
 .presslogo2 {
-    width: 20%;
+    width: 15%;
+    padding-left: 50px;
 }
