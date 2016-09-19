@@ -514,3 +514,7 @@ body {
     padding-left: 50px;
     height: 100px;
 }
+
+.home {
+    background-color: whitesmoke;
+}
