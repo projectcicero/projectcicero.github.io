@@ -39,7 +39,7 @@ body {
 }
 
 .nav.navbar-nav {
-    background-color: #FEFFF1;
+    background-color: white;
 }
 
 .navbar-custom ul.nav li a {
@@ -134,9 +134,6 @@ body {
     background-color: #FE5F5F;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
-}
-
-.timelapse {
 }
 
 .aboutlink {
@@ -382,7 +379,8 @@ body {
 }
 
 .teacherspage {
-    background-color: #F18A1D;
+    /* background-color: #F18A1D; */
+    background-color: #FF8300;
     padding-top: 100px;
 }
 
@@ -398,7 +396,6 @@ body {
 
 .teachersinfo {
     text-align: left;
-    padding-top: 50px;
 }
 
 .trow1 {
@@ -407,13 +404,13 @@ body {
 
 .quotet {
     padding-top: 50px;
-    background-color: #F18A1D;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
 
 .volunteerspage {
-    background-color: #EFE774;
+    /* background-color: #EFE774; */
+    background-color: yellow;
     padding-top: 100px;
 }
 
@@ -439,49 +436,49 @@ body {
 
 .quotev {
     padding-top: 50px;
-    background-color: #EFE774;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
 
 .supportpage {
-    background-color: #9EF99A;
+    /* background-color: #9EF99A; */
+    background-color: green;
     padding-top: 100px;
 }
 
 .quotes {
     padding-top: 50px;
-    background-color: #9EF99A;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
 
 .presspage {
-    background-color: #9ADBF9;
+    /* background-color: #9ADBF9; */
+    background-color: blue;
     padding-top: 100px;
 }
 
 .quotep {
     padding-top: 50px;
-    background-color: #9ADBF9;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
 
 .contactpage {
-    background-color: #CC9AF9;
+    /* background-color: #CC9AF9; */
+    background-color: #671C90;
     padding-top: 100px;
 }
 
 .quotec {
     padding-top: 50px;
-    background-color: #CC9AF9;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
 
 .impactpage {
-    background-color: #FE5F5F;
+    /* background-color: #FE5F5F; */
+    background-color: red;
     padding-top: 100px;
 }
 
@@ -491,7 +488,6 @@ body {
 
 .quotei {
     padding-top: 50px;
-    background-color: #FE5F5F;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
 }
