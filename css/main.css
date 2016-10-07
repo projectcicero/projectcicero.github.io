@@ -514,3 +514,43 @@ body {
 .home {
     background-color: whitesmoke;
 }
+
+.northjersey {
+    width: 50%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pressimg {
+    width: 75%;
+    padding-bottom: 50px;
+}
+
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+.pressimg2 {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.pressimg3 {
+    width: 80%;
+    padding-bottom: 50px;
+}
