@@ -12,12 +12,6 @@ body {
     text-align: center;
 }
 
-.pc2 {
-    height: 1300px;
-    background-color: antiquewhite;
-    font-family: 'Droid Sans', sans-serif;
-}
-
 .containerpc {
     height: 100%;
     background-image: url(../../img/5195sharp.jpg);
@@ -99,23 +93,6 @@ body {
     display:inline-block;
 }
 
-
-.title {
-    padding-top: 200px;
-    font-size: 80px;
-    color:white;
-}
-
-.box {
-    padding-top: 225px;
-    font-size: 20px;
-}
-
-.arrow {
-    width: 80px;
-    padding-top: 20px;
-}
-
 .aboutleft {
     padding-top: 100px;
 }
@@ -123,27 +100,6 @@ body {
 .abouttitle {
     font-size: 40px;
     padding-top: 70px;
-}
-
-.aboutright {
-    padding-top: 100px;
-}
-
-.quote {
-    padding-top: 50px;
-    background-color: #FE5F5F;
-    font-family: 'Droid Sans', sans-serif;
-    padding-bottom: 50px;
-}
-
-.aboutlink {
-    color: white;
-    font-size: 30px;
-}
-
-.letter {
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .logo {
@@ -158,181 +114,8 @@ body {
     max-width: 80%;
 }
 
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: #D8D8D8;
-}
-
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 350px;
-}
-
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: black;
-    padding: 10px 0;
-    height: 150px;
-}
-
-.modal-content, #caption { 
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: black;
-    font-size: 80px;
-    transition: 0.3s;
-    background-color: #D8D8D8;
-}
-
-.close:hover,
-.close:focus {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
-
-#myImg2 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg2:hover {opacity: 0.7;}
-
-#myImg3 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg3:hover {opacity: 0.7;}
-
-#myImg4 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg4:hover {opacity: 0.7;}
-
-#myImg5 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg5:hover {opacity: 0.7;}
-
-#myImg6 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg6:hover {opacity: 0.7;}
-
-#myImg7 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg7:hover {opacity: 0.7;}
-
-#myImg8 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg8:hover {opacity: 0.7;}
-
-#myImg9 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg9:hover {opacity: 0.7;}
-
-.impactimage {
-    height: 150px;
-}
-
 .teachers {
     font-family: 'Droid Sans', sans-serif;
-}
-
-.color {
-    background-color: antiquewhite;
-    height: 600px;
-}
-
-.color2 {
-    background-color: antiquewhite;
-    height: 80px;
-}
-
-.color2bottom {
-    background-color: antiquewhite;
-    height: 50px;
-}
-
-.volunteers {
-    background-color: white;
-    padding-bottom: 200px;
-}
-
-.colorv {
-    background-color: antiquewhite;
-    height: 1200px;
 }
 
 .supportlist {
@@ -343,43 +126,12 @@ body {
     width: 80%;
 }
 
-.colors {
-    background-color: antiquewhite;
-    height: 400px;
-}
-
-.colort {
-    background-color: antiquewhite;
-    height: 1405px;
-}
-
-.linktitle {
-    font-size: 20px;
-    color: red;
-}
-
-.colorp {
-    background-color: antiquewhite;
-    height: 850px;
-}
-
 .aboutpicture {
     width: 100%;
     padding-top: 50px;
 }
 
-.colorc {
-    background-color: antiquewhite;
-    height: 300px;
-}
-
-.colori {
-    background-color: antiquewhite;
-    height: 1205px;
-}
-
 .teacherspage {
-    /* background-color: #F18A1D; */
     background-color: #FF8300;
     padding-top: 100px;
 }
@@ -409,8 +161,7 @@ body {
 }
 
 .volunteerspage {
-    /* background-color: #EFE774; */
-    background-color: yellow;
+    background-color: #F7EA29;
     padding-top: 100px;
 }
 
@@ -441,8 +192,7 @@ body {
 }
 
 .supportpage {
-    /* background-color: #9EF99A; */
-    background-color: green;
+    background-color: #369D51;
     padding-top: 100px;
 }
 
@@ -453,8 +203,7 @@ body {
 }
 
 .presspage {
-    /* background-color: #9ADBF9; */
-    background-color: blue;
+    background-color: #2C579A;
     padding-top: 100px;
 }
 
@@ -465,8 +214,7 @@ body {
 }
 
 .contactpage {
-    /* background-color: #CC9AF9; */
-    background-color: #671C90;
+    background-color: #623684;
     padding-top: 100px;
 }
 
@@ -477,8 +225,7 @@ body {
 }
 
 .impactpage {
-    /* background-color: #FE5F5F; */
-    background-color: red;
+    background-color: #D61A23;
     padding-top: 100px;
 }
 
@@ -497,18 +244,6 @@ body {
     background-color: whitesmoke;
     font-family: 'Droid Sans', sans-serif;
     padding-bottom: 50px;
-}
-
-.presslogo {
-    /* width: 20%; */
-    padding-left: 50px;
-    height: 50px;
-}
-
-.presslogo2 {
-    /* width: 15%; */
-    padding-left: 50px;
-    height: 100px;
 }
 
 .home {
