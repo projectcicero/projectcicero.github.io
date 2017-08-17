@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css.map">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -30,7 +31,7 @@
             <div class="navbar-collapse collapse" id="navbarCollapse">
                 <ul class="nav navbar-nav thenavbar">
                     <li class="active"><a href="#top" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">About</a></li>
+                    <li><a href="about.html" class="smoothScroll">About</a></li>
                     <li><a href="impact.html" class="smoothScroll">Impact</a></li>
                     <li><a href="teachers.html" class="smoothScroll">Teachers</a></li>
                     <li><a href="volunteers.html" class="smoothScroll">Volunteers</a></li>
@@ -53,53 +54,37 @@
             </div>
         </div>
         
-        <div class="pc" id="about">
-            
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3 abouttitle">ABOUT</div>
-            </div>
-        
-            <div class="row">
-                
-                <div class="col-sm-3 col-sm-offset-2 aboutleft supportlist">
-                    Project Cicero NNJ is an annual non-profit book drive designed to create and supplement classroom libraries in under-resourced New Jersey public schools. 
-<br><br>
-Each year, schools in northern New Jersey host book collections. The books donated are for ages pre-school through 12th grade with strict requirements that they are in new or excellent condition. Trucks pick up the books from the donor schools and take them to the site of the book distribution where there are hundreds of student, parent, and teacher volunteers ready to sort and display the books. The next day, approximately 250 teachers come to the school with rolling suitcases and choose whichever books they want for their classrooms for free. 
-<br><br>
-Project Cicero NNJ is operated by Turn the Page NNJ, Inc., a 501(c)3 nonprofit organization, and works in partnership with public, parochial, and independent schools. The book drive is modeled after the program innovated in New York City in 2001. The name Project Cicero NNJ is licensed from the New York Society Library which operates Project Cicero New York City, but is otherwise unrelated to Project Cicero NNJ. 
-                </div>
-            
-                <div class="col-sm-3 col-sm-offset-2 aboutleft">
-                    
-                    <div>
-                        <strong><span style="font-size: 30px; text-decoration: underline;">BOOK DRIVE</span></strong>
-                    </div>
-                    
-                    <div class="supportlist">
-                        <br><br><span>The next Project Cicero book distribution event will take place on <strong><span style="font-size:20px;">Saturday, March 17, 2018, at Dwight Englewood School in Englewood, New Jersey.</span></strong><br><br>Volunteers: Please go to this link to sign up to volunteer:<br><br><!-- <a href="http://www.SignUpGenius.com/go/10C084AABAE22A2F85-project2" target="_blank">http://www.SignUpGenius.com/go/10C084AABAE22A2F85-project2</a> --><br><br>Teachers: Please go to this link to register to attend the 2017 book fair:</span><br><br><!-- <a href="https://www.eventbrite.com/e/project-cicero-nnj-book-fair-2017-tickets-30960876816" target="_blank">https://www.eventbrite.com/e/project-cicero-nnj-book-fair-2017-tickets-30960876816</a>-->
-                    </div>
-                    
-                    <img src="images/bookwithlabelsquare.jpg" class="aboutpicture">
-                    
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-sm-12 quoteindex">
-                    <img src="images/purplequote.png" class="quotepic">
-                        <br><br>
-                        Project Cicero NNJ is named in honor of the Roman writer, statesman, orator and philosopher, Marcus Tullius Cicero, who created extensive libraries in the first century B.C.E.
-                </div>
-            </div>
-        
+        <div class="row">
+            <a href="#timelapse2017" class="smoothScroll"><i class="fa fa-chevron-circle-down fa-5x arrow wow shake" aria-hidden="true" data-wow-delay="1.5s" data-wow-duration="2s" data-wow-iteration="2"></i></a>
         </div>
         
+        
     </div>
+    
+    <div class="containerpc2">
+        <video width="950" controls autoplay loop id="timelapse2017">
+            <source src="images/timelapse2017.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div class="row" id="bottom">
+        <div class="col-sm-12 quoteindex">
+            <img src="images/purplequote.png" class="quotepic">
+                <br><br>
+                Project Cicero NNJ is named in honor of the Roman writer, statesman, orator and philosopher, Marcus Tullius Cicero, who created extensive libraries in the first century B.C.E.
+        </div>
+    </div>
+        
     
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>
