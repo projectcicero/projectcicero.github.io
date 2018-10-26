@@ -14,7 +14,7 @@ body {
 
 .containerpc {
     height: 100%;
-    background-image: url(../../images/5195sharp.jpg);
+/*    background-image: url(../../images/5195sharp.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Droid Sans', sans-serif;
@@ -316,8 +316,9 @@ body {
     padding-top: 100px;
 }
 
-#timelapse2017 {
+#timelapse2018 {
     padding-top: 80px;
+    max-width: 70%;
 }
 
 .arrow {
