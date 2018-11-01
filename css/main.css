@@ -14,7 +14,7 @@ body {
 
 .containerpc {
     height: 100%;
-/*    background-image: url(../../images/5195sharp.jpg);*/
+    background-image: url(../../images/5195sharp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Droid Sans', sans-serif;
@@ -113,7 +113,41 @@ body {
     max-width: 40%;
     padding-top: 150px;
     padding-bottom: 50px;
-    display: none;
+/*    display: none;*/
+    animation-name: fadeout;
+    animation-duration: 6s;
+}
+
+@keyframes fadeout {
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#timelapse2018 {
+/*    margin-top: 80px;*/
+    max-width: 70%;
+    position: relative;
+    top: -320px;
+/*    display: none;*/
+    animation-name: fadein;
+    animation-duration: 6s;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.img-video-container {
+    background-color: red;
+    max-height: 40%;
+    max-width: 40%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    align-self: center;
+    margin: auto;
 }
 
 .quotepic {
@@ -317,11 +351,6 @@ body {
     padding-top: 100px;
 }
 
-#timelapse2018 {
-    padding-top: 80px;
-    max-width: 70%;
-}
-
 .arrow {
     color: white;
 }
@@ -443,6 +472,12 @@ body {
     .logo {
         display: inline-block;
         min-width: 70%;
+        animation: none;
+    }
+    #timelapse2018 {
+        animation: none;
+        position: relative;
+        top: 0;
     }
 }
 
