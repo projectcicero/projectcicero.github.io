@@ -128,7 +128,7 @@ body {
 /*    margin-top: 80px;*/
     max-width: 70%;
     position: relative;
-    top: -320px;
+    top: -330px;
 /*    display: none;*/
     animation-name: fadein;
     animation-duration: 6s;
@@ -138,6 +138,10 @@ body {
     0% {opacity: 0;}
     75% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+#timelapse2017 {
+    max-width: 70%;
 }
 
 .img-video-container {
