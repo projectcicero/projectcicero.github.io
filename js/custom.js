@@ -1,31 +1,22 @@
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    modalImg.alt = this.alt;
-    captionText.innerHTML = this.alt;
-}
-
-var img = document.getElementById('myImg2');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    modalImg.alt = this.alt;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
+$(document).ready(function() {
+    
+    var logohidden = true;
+    
+    $("#slideshowNext").click(function () {
+        
+        if (logohidden) {
+            $("#slideshowimg").removeClass("hidden");
+            $("#timelapse2018").addClass("hidden");
+            $("#button-v").removeClass("hidden");
+            $("#button-l").addClass("hidden");
+            logohidden = false;
+        }
+        else {
+            $("#slideshowimg").addClass("hidden");
+            $("#timelapse2018").removeClass("hidden");
+            $("#button-v").addClass("hidden");
+            $("#button-l").removeClass("hidden");
+            logohidden = true;
+        }
+    });
+});
