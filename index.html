@@ -48,28 +48,19 @@
     
     
     <div class="containerpc" id="top">
-        
-        <div class="row">
-            <div class="col-sm-12">
-                <img src="images/nnjlogo.png" class="logo" id="indexlogo">
-                <video controls autoplay id="timelapse2018">
+        <div class="slideshow">
+            <div class="img1"><img src="images/nnjlogo.png" class="logo hidden" id="slideshowimg"></div>
+            <div class="img2">
+                <video controls id="timelapse2018" class="">
                     <source src="images/timelapse-2018-compress.mp4" type="video/mp4">
                 </video>
-<!--
-                <div class="row">
-                    <div class="placeholder col-sm-6 col-sm-offset-3">div</div>
+            </div>
+            <div class="slideshowButtonHolder row">
+                <div id="slideshowNext" class="col-sm-2 col-sm-offset-5">
+                    <a><div class="logo-vid-button"><span id="button-l">Logo</span><span class="hidden" id="button-v">Video</span></div></a>
                 </div>
--->
             </div>
         </div>
-        
-<!--
-        <div class="row">
-            <a href="#timelapse2017"><i class="fa fa-chevron-circle-down fa-5x arrow wow shake" aria-hidden="true" data-wow-delay="1.5s" data-wow-duration="2s" data-wow-iteration="2"></i></a>
-        </div>
--->
-        
-        
     </div>
     
     
@@ -82,8 +73,10 @@
     </div>
     
     
-    <script src="js/bootstrap.min.js"></script>
+    
     <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/wow.js"></script>
