@@ -1,5 +1,14 @@
 html, body {
     height: 100%;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .pc {
@@ -108,50 +117,56 @@ body {
     font-size: 40px;
 }
 
+.video-logo-wrapper {
+    position: relative;
+}
+
+.logo-elt, .video-elt {
+    position: absolute;
+}
+
+.logo-elt {
+    opacity: 1;
+}
+
+.video-elt {
+    opacity: 0;
+}
+
 .logo {
     max-height: 40%;
     max-width: 40%;
     padding-top: 150px;
     padding-bottom: 50px;
-/*    display: none;*/
-    animation-name: fadeout;
-    animation-duration: 6s;
-}
-
-@keyframes fadeout {
-    0% {opacity: 1;}
-    75% {opacity: 1;}
-    100% {opacity: 0;}
 }
 
 #timelapse2018 {
-/*    margin-top: 80px;*/
-    max-width: 60%;
-    position: relative;
-    top: -320px;
-/*    display: none;*/
-    animation-name: fadein;
-    animation-duration: 6s;
+    width: 60%;
+    padding-top: 100px;
 }
 
-@keyframes fadein {
-    0% {opacity: 0;}
-    75% {opacity: 0;}
-    100% {opacity: 1;}
+.logo-vid-button {
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    border: 1px solid white;
+    border-radius: 3%;
+    transition: 0.5s linear;
+}
+
+.logo-vid-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s linear;
+}
+
+.hidden {
+    display: none;
 }
 
 #timelapse2017 {
     max-width: 70%;
-}
-
-.img-video-container {
-    background-color: red;
-    max-height: 40%;
-    max-width: 40%;
-    padding-top: 150px;
-    padding-bottom: 50px;
-    align-self: center;
-    margin: auto;
 }
 
 .quotepic {
@@ -352,7 +367,10 @@ body {
 }
 
 #bottom {
-    padding-top: 100px;
+/*
+    position: relative;
+    top: -200px;
+*/
 }
 
 .arrow {
