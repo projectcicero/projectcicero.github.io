@@ -145,6 +145,10 @@ body {
     padding-top: 100px;
 }
 
+#slideshowNext {
+    text-align: center;
+}
+
 .logo-vid-button {
     background-color: black;
     color: white;
@@ -152,6 +156,8 @@ body {
     border: 1px solid white;
     border-radius: 3%;
     transition: 0.5s linear;
+    width: 100px;
+    display: inline-block;
 }
 
 .logo-vid-button:hover {
