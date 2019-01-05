@@ -153,17 +153,18 @@ body {
     background-color: black;
     color: white;
     line-height: 30px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 3%;
     transition: 0.5s linear;
     width: 100px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .logo-vid-button:hover {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
     transition: 0.5s linear;
 }
 
